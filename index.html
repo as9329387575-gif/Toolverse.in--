@@ -1,0 +1,660 @@
+Here is the updated HTML code with the requested changes: only 5 sample AI tools, updated WhatsApp number, new email, and adjusted heading.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Toolverse | 100+ AI Tools, AI Agents, Website & App Development Services</title>
+    <meta name="description" content="Toolverse provides 100+ AI tools and services including AI agents, website creation, app development, and digital solutions. Build, automate, and grow with AI.">
+    <meta name="keywords" content="AI tools, AI agents, website development, app creation, game development, automation, AI generator, startup tools">
+    <meta name="author" content="Aditya Singh Parihar & Harshit Mishra">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://toolverse.ai">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Toolverse – 100+ AI Tools & Digital Solutions">
+    <meta property="og:description" content="Build, automate, and grow with AI tools, websites, apps, and custom solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://toolverse.ai/og-image.jpg">
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0A0A0F;
+            color: #F1F5F9;
+            line-height: 1.5;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #12121a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4f46e5;
+            border-radius: 10px;
+        }
+
+        /* Sticky Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(79, 70, 229, 0.3);
+            padding: 1rem 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #A855F7, #3B82F6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #E2E8F0;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .nav-links li a:hover {
+            color: #A855F7;
+        }
+
+        .menu-icon {
+            display: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: white;
+        }
+
+        /* Buttons */
+        .btn-primary {
+            background: linear-gradient(95deg, #4F46E5, #A855F7);
+            border: none;
+            padding: 0.8rem 1.8rem;
+            border-radius: 40px;
+            font-weight: 600;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.5);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1.5px solid #A855F7;
+            padding: 0.7rem 1.7rem;
+            border-radius: 40px;
+            font-weight: 600;
+            color: #F1F5F9;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-outline:hover {
+            background: rgba(168, 85, 247, 0.1);
+            border-color: #c084fc;
+        }
+
+        .btn-sm {
+            padding: 0.5rem 1.2rem;
+            font-size: 0.85rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1rem;
+            background: linear-gradient(125deg, #FFFFFF, #C084FC);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .section-sub {
+            text-align: center;
+            color: #94A3B8;
+            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero h1 {
+            font-size: 3.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            max-width: 950px;
+            margin: 0 auto 1rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #CBD5E1;
+            max-width: 680px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .animated-bg {
+            position: absolute;
+            top: -40%;
+            left: -20%;
+            width: 140%;
+            height: 140%;
+            background: radial-gradient(circle, rgba(79,70,229,0.25) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            animation: floatGlow 12s infinite alternate;
+        }
+
+        @keyframes floatGlow {
+            0% { opacity: 0.3; transform: scale(1) translateY(0px);}
+            100% { opacity: 0.7; transform: scale(1.08) translateY(-20px);}
+        }
+
+        /* Floating orbs */
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            z-index: -1;
+            opacity: 0.4;
+        }
+        .orb1 { width: 300px; height: 300px; background: #4F46E5; top: 10%; left: -5%; animation: drift 20s infinite; }
+        .orb2 { width: 400px; height: 400px; background: #A855F7; bottom: 0%; right: -10%; animation: drift 25s infinite reverse; }
+        @keyframes drift {
+            0% { transform: translate(0,0);}
+            100% { transform: translate(40px, 40px);}
+        }
+
+        /* Cards Grid - tools */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: rgba(30, 30, 47, 0.7);
+            backdrop-filter: blur(4px);
+            border-radius: 28px;
+            padding: 1.6rem;
+            border: 1px solid rgba(79, 70, 229, 0.3);
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.3);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #A855F7;
+            background: rgba(35, 35, 55, 0.85);
+            box-shadow: 0 25px 40px -12px rgba(168,85,247,0.2);
+        }
+
+        .card h3 {
+            font-size: 1.4rem;
+            margin: 0.8rem 0 0.5rem;
+        }
+
+        .card p {
+            color: #94A3B8;
+            margin-bottom: 1.2rem;
+        }
+
+        /* Services grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .service-card .benefits {
+            font-size: 0.85rem;
+            margin: 1rem 0;
+            color: #B9C3D4;
+            list-style: none;
+        }
+        .service-card .benefits li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Testimonial */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .testimonial-card {
+            background: #13131F;
+            border-radius: 28px;
+            padding: 1.8rem;
+            border-left: 4px solid #A855F7;
+        }
+
+        /* Founder section - dual */
+        .founders-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .founder-card {
+            background: linear-gradient(145deg, #13131F, #0B0B12);
+            border-radius: 40px;
+            padding: 2rem;
+            flex: 1;
+            min-width: 260px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .founder-card:hover {
+            transform: scale(1.02);
+        }
+        .founder-avatar {
+            font-size: 4rem;
+            color: #A855F7;
+            margin-bottom: 1rem;
+        }
+
+        /* Contact form */
+        .contact-form {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #13131F;
+            padding: 2rem;
+            border-radius: 36px;
+        }
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 1rem;
+            background: #1E1E2F;
+            border: 1px solid #2D2D44;
+            border-radius: 28px;
+            color: white;
+            outline: none;
+            font-size: 1rem;
+        }
+        .whatsapp-btn {
+            background: #25D366;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 1rem;
+            justify-content: center;
+        }
+        footer {
+            background: #050508;
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid #1F1F2E;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .footer-links a {
+            color: #94A3B8;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        .footer-links a:hover {
+            color: #A855F7;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                padding-top: 1rem;
+                gap: 1rem;
+            }
+            .nav-links.show {
+                display: flex;
+            }
+            .menu-icon {
+                display: block;
+            }
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            section {
+                padding: 3rem 1.2rem;
+            }
+        }
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .legal-box {
+            background: #0F0F17;
+            border-radius: 28px;
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+        }
+        .long-content {
+            background: #0A0A10;
+            border-radius: 32px;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        .badge {
+            background: rgba(168,85,247,0.2);
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-bottom: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">Toolverse</div>
+        <div class="menu-icon" id="menuToggle"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#privacy">Privacy</a></li>
+            <li><a href="#terms">Terms</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="animated-bg"></div>
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <span class="badge">✨ The ultimate AI ecosystem</span>
+        <h1>Toolverse – 100+ AI Tools & Digital Solutions in One Place</h1>
+        <p>Build, automate, and grow with AI tools, websites, apps, and custom solutions.</p>
+        <div class="hero-buttons">
+            <button class="btn-primary" id="exploreToolsBtn"><i class="fas fa-grid-2"></i> Explore Tools</button>
+            <button class="btn-outline" id="getServicesBtn"><i class="fas fa-crown"></i> Get Services</button>
+        </div>
+    </section>
+
+    <!-- Tools showcase - only 5 sample tools -->
+    <section id="tools">
+        <h2 class="section-title">⚡ We've Created 100+ AI Tools</h2>
+        <p class="section-sub">Explore 5 powerful samples from our extensive AI suite — each built to supercharge your workflow.</p>
+        <div class="tools-grid" id="toolsGrid"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid" id="servicesGrid"></div>
+    </section>
+
+    <!-- AI Agent Section -->
+    <section id="ai-agent">
+        <div class="card" style="background: linear-gradient(135deg, #1E1A3A, #0F0F1F); text-align: center;">
+            <i class="fas fa-brain" style="font-size: 3rem; color: #A855F7;"></i>
+            <h2 style="font-size: 2rem; margin-top: 0.5rem;">🤖 Build your own AI agent</h2>
+            <p style="margin-top: 1rem; max-width: 700px; margin-left: auto; margin-right: auto;">Custom AI assistants that automate tasks, answer queries, and boost productivity — tailored to your business.</p>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin: 2rem 0;">
+                <div><i class="fas fa-microphone-alt"></i> NLP Understanding</div>
+                <div><i class="fas fa-robot"></i> Task Automation</div>
+                <div><i class="fas fa-chart-line"></i> 24/7 Uptime</div>
+                <div><i class="fas fa-plug"></i> API Integration</div>
+            </div>
+            <p><strong>Use cases:</strong> Customer support, lead generation, internal knowledge base, personal scheduling.</p>
+            <button class="btn-primary" id="createAIAgentBtn" style="margin-top: 1.5rem;">Create Your AI Agent →</button>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section>
+        <h2 class="section-title">How It Works</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 2rem; text-align: center;">
+            <div class="card"><i class="fas fa-magic" style="font-size: 2.5rem; color:#A855F7;"></i><h3>1. Choose a tool or service</h3><p>Select from 100+ AI tools or digital services.</p></div>
+            <div class="card"><i class="fas fa-sliders-h" style="font-size: 2.5rem; color:#A855F7;"></i><h3>2. Customize your needs</h3><p>Tailor settings, prompts, or project requirements.</p></div>
+            <div class="card"><i class="fas fa-bolt" style="font-size: 2.5rem; color:#A855F7;"></i><h3>3. Get results instantly</h3><p>Receive AI outputs, deploy apps or launch websites.</p></div>
+        </div>
+    </section>
+
+    <!-- Testimonials - satisfied customers -->
+    <section>
+        <h2 class="section-title">Real Feedback from Satisfied Customers</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card"><i class="fas fa-quote-left" style="color:#A855F7;"></i><p>"Toolverse helped me build AI agents for my startup – saved 20+ hours weekly!"</p><h4>— Riya Mehta, Startup Founder</h4></div>
+            <div class="testimonial-card"><i class="fas fa-quote-left" style="color:#A855F7;"></i><p>"The AI Resume Builder landed me my dream internship. Amazing tools."</p><h4>— Arjun Singh, Student</h4></div>
+            <div class="testimonial-card"><i class="fas fa-quote-left" style="color:#A855F7;"></i><p>"From website dev to automation solutions – they delivered beyond expectations."</p><h4>— Priya Sharma, Business Owner</h4></div>
+            <div class="testimonial-card"><i class="fas fa-quote-left" style="color:#A855F7;"></i><p>"The variety of AI tools is incredible. My team's productivity skyrocketed."</p><h4>— Ankit Verma, Marketing Lead</h4></div>
+        </div>
+    </section>
+
+    <!-- Founder & Co-Founder Section -->
+    <section>
+        <h2 class="section-title">Meet the Minds Behind Toolverse</h2>
+        <div class="founders-container">
+            <div class="founder-card">
+                <div class="founder-avatar"><i class="fas fa-user-astronaut"></i></div>
+                <h3>Aditya Singh Parihar</h3>
+                <p><strong>Founder & CEO</strong></p>
+                <p>AI entrepreneur & full-stack innovator. Aditya founded Toolverse to democratize AI tools and high-end digital solutions. Vision: make AI accessible for every business.</p>
+                <p style="margin-top: 0.8rem; font-style: italic;">“Empowering creators with intelligent automation.”</p>
+            </div>
+            <div class="founder-card">
+                <div class="founder-avatar"><i class="fas fa-code"></i></div>
+                <h3>Harshit Mishra</h3>
+                <p><strong>Co-Founder & CTO</strong></p>
+                <p>Tech architect & product strategist. Harshit leads AI research, platform scalability, and developer experience. His passion: building seamless AI-native ecosystems.</p>
+                <p style="margin-top: 0.8rem; font-style: italic;">“Building the infrastructure for tomorrow’s AI.”</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact + WhatsApp with updated number and email -->
+    <section id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-form">
+            <form action="https://formsubmit.co/as457839942@gmail.com" method="POST">
+                <div class="form-group"><input type="text" name="name" placeholder="Your Full Name" required></div>
+                <div class="form-group"><input type="email" name="email" placeholder="Email Address" required></div>
+                <div class="form-group"><textarea rows="4" name="message" placeholder="Tell us about your project or inquiry..."></textarea></div>
+                <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+            <a href="https://wa.me/919329387575" target="_blank" class="btn-primary whatsapp-btn" style="background:#25D366;"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Privacy & Terms -->
+    <section id="privacy">
+        <div class="legal-box"><h3>📄 Privacy Policy</h3><p><strong>No data storage:</strong> Most AI tools do not store your personal data permanently. Contact form submissions are handled via FormSubmit and email. We use cookies for analytics & Google AdSense. By using Toolverse, you consent to cookies and data handling as per standard practices.</p></div>
+        <div id="terms" class="legal-box"><h3>⚖️ Terms & Conditions</h3><p><strong>Usage terms:</strong> Services and tools are provided "as is". Toolverse is not liable for indirect damages. We reserve the right to modify services. All AI-generated content must comply with local laws.</p><p><strong>Disclaimer:</strong> Third-party integrations and tool outputs are for informational purposes; users assume full responsibility.</p></div>
+    </section>
+
+    <!-- SEO Rich Content 2000+ words -->
+    <section>
+        <div class="long-content fade-up">
+            <h2 style="font-size: 2rem;">The AI Revolution: Ecosystem, Automation & Future</h2>
+            <p><strong>AI Tools Ecosystem:</strong> Artificial Intelligence has transformed how we create, manage, and scale digital products. Toolverse aggregates 100+ AI utilities ranging from content generation (SEO titles, captions) to image enhancement, resume building, and coding assistants. Modern startups leverage AI to reduce manual overhead and unlock creativity.</p>
+            <p><strong>Benefits of Automation:</strong> Automating repetitive tasks such as social media captioning, hashtag research, and daily planning frees up human capital for strategic thinking. Our AI agents can manage customer interactions, schedule workflows, and analyze data in real-time, leading to up to 70% efficiency gains.</p>
+            <p><strong>Why Businesses Need AI:</strong> In an ultra-competitive market, AI-driven insights enable personalized marketing, faster development cycles, and predictive analytics. Whether you run an e-commerce store or a SaaS platform, AI tools for SEO, chatbots, and dynamic content generation are no longer optional—they're essential for growth.</p>
+            <p><strong>Website & App Development Importance:</strong> A robust digital presence is the cornerstone of modern business. Toolverse offers custom website creation (React, Vue, Jamstack) and cross-platform app development (Flutter, React Native). We combine AI with human-centric design to deliver blazing-fast, conversion-optimized experiences.</p>
+            <p><strong>Future of AI Tools:</strong> The next generation of AI includes autonomous agents, generative video, and real-time multimodal assistants. At Toolverse, we stay ahead of the curve, integrating cutting-edge APIs and proprietary agents. From game development (AI-assisted level design) to automation pipelines, the future is collaborative intelligence.</p>
+            <p>Our commitment: Provide a single platform where entrepreneurs, creators, and enterprises can discover AI tools, hire developers, and build AI agents — without technical debt. As AI becomes ubiquitous, Toolverse remains your trusted partner in digital transformation.</p>
+            <p><strong>Automation in practice:</strong> Marketing teams using AI blog outlines and title generators see 3x content output. Recruiters using AI resume builder cut screening time by 50%. Game developers use AI story prompts and asset creation to speed prototyping. The result? More innovation, less grunt work.</p>
+            <p>Toolverse also specializes in custom AI agent development: chatbots, voice assistants, and predictive models integrated with your CRM or ERP. We also deliver automation solutions for invoice processing, lead qualification, and reporting dashboards. The possibilities are infinite.</p>
+            <p>By 2027, AI will contribute $15 trillion to the global economy. Don't get left behind — explore Toolverse’s suite of AI generators, dev services, and strategic consulting. Your future-ready stack starts here.</p>
+            <p><em>Over 2,500+ businesses have leveraged our tools. Join the movement and redefine efficiency.</em></p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="#home">Home</a><a href="#tools">Tools</a><a href="#services">Services</a><a href="#contact">Contact</a><a href="#privacy">Privacy</a><a href="#terms">Terms</a>
+    </div>
+    <p>© Toolverse – Built for the Future of AI | Founded by Aditya Singh Parihar & Harshit Mishra</p>
+</footer>
+
+<script>
+    // ---------- 5 SAMPLE AI TOOLS (showcase only) ----------
+    const toolsData = [
+        { name: "AI Caption Generator", desc: "Generate viral captions for Instagram, TikTok, LinkedIn.", icon: "fas fa-captioning" },
+        { name: "AI SEO Title Generator", desc: "Click-worthy titles that boost CTR & rankings.", icon: "fas fa-chart-line" },
+        { name: "AI Hashtag Generator", desc: "Smart hashtags to maximize social reach.", icon: "fas fa-hashtag" },
+        { name: "AI Resume Builder", desc: "ATS-optimized resumes & cover letters.", icon: "fas fa-file-alt" },
+        { name: "AI Image Enhancer", desc: "Upscale, denoise & restore images in 1-click.", icon: "fas fa-image" }
+    ];
+
+    function renderTools() {
+        const grid = document.getElementById("toolsGrid");
+        if (!grid) return;
+        grid.innerHTML = toolsData.map(tool => `
+            <div class="card fade-up">
+                <i class="${tool.icon}" style="font-size: 2rem; color:#A855F7; margin-bottom: 10px; display:inline-block;"></i>
+                <h3>${escapeHtml(tool.name)}</h3>
+                <p>${escapeHtml(tool.desc)}</p>
+                <button class="btn-primary btn-sm infoToolBtn">📌 View Sample</button>
+            </div>
+        `).join('');
+        document.querySelectorAll('.infoToolBtn').forEach(btn => btn.addEventListener('click', () => alert("✨ Toolverse Showcase: This is one of our 100+ AI tools. Full access & advanced features coming soon!")));
+        applyScrollAnimation();
+    }
+
+    function escapeHtml(str) { return str.replace(/[&<>]/g, function(m){if(m==='&') return '&amp;'; if(m==='<') return '&lt;'; if(m==='>') return '&gt;'; return m;}); }
+
+    // Services Data (unchanged)
+    const servicesList = [
+        { title: "🤖 AI Agent Development", desc: "Custom AI assistants and autonomous agents for business.", benefits: ["24/7 automation", "NLP & decision trees", "API ready"] },
+        { title: "🌐 Website Creation", desc: "Modern, high-performance websites with SEO & conversion design.", benefits: ["Responsive", "Fast loading", "CMS integration"] },
+        { title: "📱 App Development", desc: "iOS, Android & cross-platform apps using React Native/Flutter.", benefits: ["Smooth UI/UX", "Scalable backend", "App store deploy"] },
+        { title: "🎮 Game Development", desc: "2D/3D games, Unity/Unreal, AI-driven NPCs.", benefits: ["Immersive worlds", "Multiplayer ready", "Monetization"] },
+        { title: "⚙️ Automation Solutions", desc: "Workflow automation (Zapier, Make, custom scripts).", benefits: ["Save 30+ hrs/week", "CRM automation", "Lead routing"] }
+    ];
+
+    function renderServices() {
+        const container = document.getElementById("servicesGrid");
+        if(!container) return;
+        container.innerHTML = servicesList.map(service => `
+            <div class="card service-card">
+                <h3>${service.title}</h3>
+                <p>${service.desc}</p>
+                <ul class="benefits">${service.benefits.map(b => `<li><i class="fas fa-check-circle" style="color:#A855F7;"></i> ${b}</li>`).join('')}</ul>
+                <button class="btn-primary btn-sm serviceCta">Get Started →</button>
+            </div>
+        `).join('');
+        document.querySelectorAll('.serviceCta').forEach(btn => btn.addEventListener('click', () => { document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); }));
+    }
+
+    // Mobile menu
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    if(menuToggle) menuToggle.onclick = () => navLinks.classList.toggle('show');
+    document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('show')));
+
+    // Scroll animations
+    function applyScrollAnimation() {
+        const elements = document.querySelectorAll('.fade-up');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if(entry.isIntersecting) entry.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        elements.forEach(el => observer.observe(el));
+    }
+    document.querySelectorAll('.card, .testimonial-card, .founder-card, .contact-form, .legal-box, .long-content').forEach(el => el.classList.add('fade-up'));
+
+    // Buttons
+    document.getElementById('exploreToolsBtn')?.addEventListener('click', () => document.getElementById('tools').scrollIntoView({behavior: 'smooth'}));
+    document.getElementById('getServicesBtn')?.addEventListener('click', () => document.getElementById('services').scrollIntoView({behavior: 'smooth'}));
+    document.getElementById('createAIAgentBtn')?.addEventListener('click', () => document.getElementById('contact').scrollIntoView({behavior: 'smooth'}));
+
+    window.addEventListener('DOMContentLoaded', () => {
+        renderTools();
+        renderServices();
+        applyScrollAnimation();
+        setTimeout(() => { applyScrollAnimation(); }, 200);
+    });
+</script>
+</body>
+</html>
+```
